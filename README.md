@@ -14,13 +14,12 @@ Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/
 * [git-completion from github](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 * [David Xu's port of posh-git for bash](https://github.com/lyze/posh-git-sh)
 
-### Including
-* git configuration
-	*aliases, gitignore for mac
+### Features
+* colorful terminal
+* git aliases, global gitignore, multiple git identity
 * git prompt inspired by posh-git
 * bash and git completion
-* colourful shell
-* aliases
+* useful aliases
 
 ### Inspirations
 * [Simple Tricks to Improve the Terminal Appearance in Mac OS X](http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/)
