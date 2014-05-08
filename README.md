@@ -5,7 +5,7 @@ Dot files for improving Mac OS X terminal for development.
 
 ![screenshot 1](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term1.png) ![screenshot 2](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term2.png)
 
-Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great articles and tools.
+Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great [Articles]()
 
 ### Dependencies
 
@@ -22,7 +22,7 @@ Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/
 * colourful shell
 * aliases
 
-### Inspirations
+### Articles
 * [Simple Tricks to Improve the Terminal Appearance in Mac OS X](http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/)
 * [Adding Git Data to Your Bash Prompt](http://buddylindsey.com/adding-git-data-to-your-bash-prompt/)
 * [Adding Git Autocomplete to Bash on OS X](http://buddylindsey.com/adding-git-autocomplete-to-bash-on-os-x/)
