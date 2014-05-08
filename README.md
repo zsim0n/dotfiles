@@ -1,11 +1,9 @@
 Zoltan's dotfiles
 ========
 
-Dot files for improving Mac OS X terminal for development.
+Dot files for improving Mac OS X terminal for development. Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great [Articles](#inspirations)
 
-![screenshot 1](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term1.png) ![screenshot 2](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term2.png)
-
-Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great [Articles](#inspirations)
+![screenshot](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term2.png)
 
 ### Dependencies
 
@@ -15,6 +13,7 @@ Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/
 * [David Xu's port of posh-git for bash](https://github.com/lyze/posh-git-sh)
 
 ### Features
+
 * colorful terminal
 * git aliases, global gitignore, multiple git identity
 * git prompt inspired by posh-git
@@ -22,6 +21,7 @@ Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/
 * useful aliases
 
 ### Inspirations
+
 * [Simple Tricks to Improve the Terminal Appearance in Mac OS X](http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/)
 * [Adding Git Data to Your Bash Prompt](http://buddylindsey.com/adding-git-data-to-your-bash-prompt/)
 * [Adding Git Autocomplete to Bash on OS X](http://buddylindsey.com/adding-git-autocomplete-to-bash-on-os-x/)
@@ -32,4 +32,29 @@ Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/
 * [Git auto-completion for the bash shell](http://blog.vogella.com/2013/03/19/git-auto-completion-for-the-bash-shell/)
 * [10 Useful Linux Bash_Completion Complete Command Examples ](http://www.thegeekstuff.com/2013/12/bash-completion-complete/)
 * [Git: Using Different User Emails For Different Repositories](http://orrsella.com/2013/08/10/git-using-different-user-emails-for-different-repositories/)
+
+### Usage
+
+clone the repository  `$ git clone https://github.com/zsim0n/dotfiles.git` than copy all the files into your home. **!this will destroy your current profile settings!**
+
+### Update dependencies
+
+#### git completion
+
+```
+$ git clone https://github.com/zsim0n/dotfiles.git
+$ cd dotfiles
+$ wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+$ mv git-completion.bash .git-completion.bash
+```
+
+#### git prompt
+
+```
+$ git clone https://github.com/zsim0n/dotfiles.git
+$ cd dotfiles
+$ wget https://raw.githubusercontent.com/lyze/posh-git-sh/master/git-prompt.sh
+$ mv git-prompt.sh .git-prompt.sh
+```
+
 
