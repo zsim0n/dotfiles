@@ -5,7 +5,7 @@ Dot files for improving Mac OS X terminal for development.
 
 ![screenshot 1](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term1.png) ![screenshot 2](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term2.png)
 
-Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great [Articles](Articles)
+Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great [Articles](#Articles)
 
 ### Dependencies
 
