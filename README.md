@@ -44,7 +44,7 @@ clone the repository  `$ git clone https://github.com/zsim0n/dotfiles.git` than 
 ```
 $ git clone https://github.com/zsim0n/dotfiles.git
 $ cd dotfiles
-$ wget https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+$ wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 $ mv git-completion.bash .git-completion.bash
 ```
 
