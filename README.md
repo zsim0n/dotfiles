@@ -3,7 +3,7 @@ Zoltan's dotfiles
 
 Dot files for improving Mac OS X terminal for development. Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great [Articles](#inspirations)
 
-![screenshot](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term2.png)
+![screenshot](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term4.png)
 
 ### Dependencies
 
