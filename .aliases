@@ -52,3 +52,7 @@ alias whois="whois -h whois-servers.net"
 ## Enable aliases to be sudo’ed
 alias sudo='sudo '
 
+## clear screen
+alias cls='clear'
+
+
