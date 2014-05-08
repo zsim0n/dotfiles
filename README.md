@@ -1,7 +1,7 @@
 Zoltan's dotfiles
 ========
 
-Dot files for improving Mac OS X terminal for development. Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many other great [Articles](#inspirations)
+Dot files for improving Mac OS X terminal for development. Heavily insired by [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles) and many great [Articles](#inspirations)
 
 ![screenshot](https://raw.github.com/zsim0n/dotfiles/screenshots/screenshots/term1.png)
 
