@@ -55,4 +55,6 @@ alias sudo='sudo '
 ## clear screen
 alias cls='clear'
 
+## veewee sudo gem install veewee
+alias veewee="bundle exec veewee"
 
