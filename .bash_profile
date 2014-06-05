@@ -11,7 +11,11 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 export LC_ALL=da_DK.UTF-8
 
-export PROMPT_COMMAND='__git_ps1 "\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W" "\[\033[m\]\$ "'
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  export PROMPT_COMMAND='__git_ps1 "\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W" "\[\033[m\]\$ "'
+else
+  export PROMPT_COMMAND='__git_ps1 "\[\033[35;1m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[34;1m\]\W" "\[\033[m\]\$ "'
+fi
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
   if [ -f $(brew --prefix)/etc/bash_completion ]; then
