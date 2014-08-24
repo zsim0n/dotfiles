@@ -38,9 +38,9 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 export LC_ALL=da_DK.UTF-8
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-  export PROMPT_COMMAND='__git_ps1 "\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W" "\[\033[m\]\$ "'
+  export PROMPT_COMMAND='__git_ps1 "\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\W" "\[\033[33m\] ✗ \[\033[m\]"'
 else
-  export PROMPT_COMMAND='__git_ps1 "\[\033[35;1m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[34;1m\]\W" "\[\033[m\]\$ "'
+  export PROMPT_COMMAND='__git_ps1 "\[\033[35;1m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[34;1m\]\W" "\[\033[33m\] ✗ \[\033[m\]"'
 fi
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
