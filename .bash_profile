@@ -10,6 +10,10 @@ if [ -f ~/.git-prompt.sh ]; then
     source ~/.git-prompt.sh
 fi
 
+if [ -f ~/.rackspace-novaclient ]; then
+    source ~/.rackspace-novaclient
+fi
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -61,3 +65,4 @@ fi
 if [ -f ~/.git-completion.bash ]; then
   source ~/.git-completion.bash
 fi
+
